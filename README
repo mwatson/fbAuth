@@ -1,0 +1,20 @@
+fbAuth v1.0.0
+
+fbAuth is a simple class that completes an OAuth handshake with Facebook and
+retrieves access tokens for your own account and (optionally) any applications
+and/or pages you may have. The goal is to be as simple as possible, so this
+requires no database, no memcache and doesn't really do anything beyond grab
+access tokens. Once they're obtained you can do whatever you want with them of
+course. In an ideal world you could just extend this with your own Facebook
+class that does fancier stuff.
+
+Web site for the project:
+http://mantiseyelabs.com/fbAuth/
+
+Docs/API:
+http://mantiseyelabs.com/fbAuth/docs
+
+fbAuth is released under the FreeBSD license. Please read the license terms
+which are above the file fbAuth.php
+ 
+Copyright (c) 2012, Mike Watson, Mantis-Eye Labs
